@@ -1,0 +1,90 @@
+h1 {
+  color: #540707;
+  background-image: url();
+  font-size: 4rem;
+  text-decoration: underline;
+}
+body {
+  text-align: center;
+  background-image: url('https://th.bing.com/th/id/OIP.tHFWBBFFqCM5d703lvQYuwHaEK?w=276&h=180&c=7&r=0&o=5&pid=1.7');
+}
+.card-display {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1rem;
+  margin: 5%;
+  padding: 1rem;
+  /*  width: 50%; */
+}
+.comment-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+fieldset{
+  text-align: center;
+  background: #e5cf00;
+  width: 100%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  border: #540707 10px solid;
+}
+label{
+  font-size: 125%;
+}
+legend{
+  font-size: 225%;
+  font-weight: 500;
+  background-color: #540707;
+  color: #e5cf00;
+}
+input[type='text'] {
+  padding: .5rem;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  width: 75%;
+}
+input[type='checkbox']{
+  height: 2rem;
+  width: 2rem;
+  margin-left: 18%;
+}
+textarea:focus {
+  outline: 5px solid #540707;
+}
+input:focus {
+  outline: 5px solid #540707);
+}
+input[type='checkbox']:focus {
+  outline: 2px solid #540707);
+}
+textarea{
+  padding: 1rem;
+  margin: 1%;
+  width: 75%;
+}
+button{
+  padding: 1rem;
+  margin: 5%;
+  border: none;
+  color: #e5cf00;
+  font-size: 100%;
+  background: #540707;
+  border-radius: 0.25rem;
+  height: .6rem;
+  width: 15rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button:hover{
+  cursor: pointer;
+  border: white solid 5px;
+}
+.comment-display{
+  background: #540707;
+  color: white;
+}

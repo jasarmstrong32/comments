@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="comment-display"></div>
+
+    <div class="comment-area">
+      <form>
+        <fieldset>
+          <legend>Leave a Comment!</legend>
+
+          <label for="name">Name: </label>
+          <input class="comment" type="text" id="name" required />
+
+          <label for="email">Email: </label>
+          <input class="comment" type="text" id="email" required />
+
+          <label for="comment-body">Comment: </label>
+          <textarea
+            name="comment-body"
+            id="comment-body"
+            cols="30"
+            rows="5"
+            required
+          ></textarea>
+
+          <label for="permission">
+            <input type="checkbox" id="permission" value="true" required />
+            Check this box to allow your comment to be posted
+          </label>
+          <button
+            class="submit"
+            id="submit"
+            type="submit"
+            onclick="postComment()"
+          >
+            Post Your Comment
+          </button>
+        </fieldset>
+      </form>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
